@@ -1,0 +1,36 @@
+.title{
+    -fx-font-size: 2em;
+    -fx-text-fill:#016A91;
+    -fx-font-weight: bold;
+}
+
+.form_container{
+    -fx-background-color: #EEEEEE;
+
+}
+.form_container Text{
+    -fx-font-size:2em;
+    -fx-fill: #888888;
+
+}
+.form_container Vbox{
+    -fx-border-width: 0 0 0 1;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+
+}
+.form_container TextField{
+    -fx-pref-height:250;
+    -fx-pref-height:35;
+    -fx-background-color: #ffffff;
+    -fx-font-size : 1.3em;
+    -fx-effect: dropShadow(three-pass-box, #AAAAAA, 3 0 0 3);
+}
+.form_container Button{
+    -fx-background-color: linear-gradient(to right, #0A3353, 3 0 0 3);
+    -fx-effect: dropShadow(three-pass-box, #AAAAAA, 3 0 0 3);
+    -fx-pref-width:100;
+    -fx-font-size:1.5em;
+    -fx-text-fill: #ffffff;
+}
+
